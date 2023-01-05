@@ -1,0 +1,45 @@
+html{
+    background: black url(fundal.jpg) center center no-repeat;
+    background-size: cover;
+    color: white;
+}
+body{ display: grid;
+    place-items: center;
+    margin:0 ;
+    font-family: Arial,sans-serif;
+    font-size: 16px;
+    line-height:1.5em;
+    
+}
+.Container{
+    margin: 20px;
+    background: rgb(79, 109, 245, 0.8);
+    border-radius: 2.5rem;
+    }
+    .avatar{
+        display: block;
+        float:left;
+        width: 100px;
+        height: auto;
+        margin:0 1em 0 0 ;
+        border-radius: 50%;
+
+
+        ;}
+        .TitlulPaginii{
+            display: block;
+            margin: 0;
+            font-size: clamp(2rem, 6vw, 4rem);
+            line-height: 1em;
+        }
+
+    .ListaLinkuri{display: block;margin: 0;padding: 0; }
+        .listaItm{display: block; margin: 10px; padding:0; border-radius: 25px; border: 4px solid rgb(3, 45, 30) }
+    
+           .ListaLink{display: block;padding: 0.5em ; color: rgb(204, 190, 190);text-decoration: none; }
+                .ListaLink:hover {background: white;color:black; border-radius: 20px;border-color: black;}
+           .Listatitlu .ListaText{font-size: 60px;}
+                      .DescriereaPrincipala{
+                       padding:0 ;margin-left: 15px;
+
+                      }
